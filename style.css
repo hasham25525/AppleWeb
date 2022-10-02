@@ -6,8 +6,7 @@
 
 html {
     font-size: 10px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* min-width: 1148px; */
+    font-family: "SF Pro Text", " Myriad Set Pro", " SF Pro Icons", " Helvetica Neue", " Helvetica", " Arial", sans-serif;
 }
 
 a {
@@ -18,7 +17,7 @@ a {
 .container {
     margin: 0 auto;
     height: 45px;
-    max-width: 1100px;
+    max-width: 980px;
     padding: 0 22px;
     position: relative;
     z-index: 2;
@@ -31,7 +30,6 @@ header {
     width: 100%;
     z-index: 1400;
     height: 4.4rem;
-    /* min-width: 833px; */
     background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(2rem);
 }
@@ -52,7 +50,7 @@ header {
 
 .nav-link {
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 300;
     color: rgba(232, 232, 232, 0.825);
     padding: 0 8px;
     transition: color 0.5s;
@@ -65,7 +63,6 @@ header {
         min-width: 20px;
         margin: auto;
         visibility: hidden;
-        transition: visibility 0s linear 1s;
     }
 
     .nav-link-apple {
@@ -96,4 +93,84 @@ header {
 
 .nav-link:hover {
     color: rgb(255, 255, 255);
+}
+
+.iphone-14-pro {
+    background: url("images/hero/iphone-14-pro/14pro.jpg") center no-repeat;
+
+}
+
+.title {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+
+.title-heading {
+    font-weight: 600;
+    letter-spacing: -1px;
+    word-spacing: -5px;
+    font-size: 53px;
+    Line-height: 1.07143;
+    /* Letter-spacing: -0.005rem; */
+}
+
+.title-sub-heading {
+    font-size: 2.65rem;
+    margin-top: 0.6rem;
+    Letter-spacing: 0.008rem;
+    font-weight: 400;
+}
+
+.title-price {
+    font-size: 1.7rem;
+    color: #ffffff;
+    margin-top: 0.68rem;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 1.8rem;
+}
+
+.cta-link {
+    color: #2997ff;
+    font-size: 2.1rem;
+    display: inline-block;
+}
+
+.cta-link:nth-child(2) {
+    margin-left: 2.6rem;
+}
+
+.cta-link:hover {
+    border-bottom: 2px solid #2997ff;
+}
+
+.iphone-14 {
+
+    background: url("images/hero/iphone-14/14.jpg") center no-repeat;
+
+}
+
+.watchUltra {
+    background: url("images/hero/watch/watchUltra.jpg") center no-repeat;
+}
+
+.visuallyhidden {
+
+    clip-path: inset(0px 0px 99.9% 99.9%);
+
+}
+
+.watchlogo {
+    padding: 15px 0;
+    height: 71px;
+
+    background: url("images/hero/watch/hero_logo_apple_watch_ultra__etygmmkwgfma_largetall.png") center no-repeat;
+}
+
+.hero {
+    height: 736px;
+    background-size: auto 73.6rem;
 }
