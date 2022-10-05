@@ -175,10 +175,28 @@ header {
     background-size: auto 73.6rem;
 }
 
+#promo-cards {
+    width: 48%;
+    height: 640px;
+    border: 10px solid white;
+    display: inline-block;
+    padding-left: px;
+
+}
+
+@media only screen and (max-width: 1085px) {
+    #promo-cards {
+        margin: -25px;
+        width: 103%;
+        border: none;
+    }
+
+}
+
+
 .promo {
     color: #ffffff;
     text-align: center;
-
     padding-top: 5.5rem;
 }
 
@@ -202,10 +220,7 @@ h2 {
 }
 
 .AirPods {
-    width: 48%;
-    height: 640px;
-    border: 10px solid white;
-    display: inline-block;
+
     background: url("images/promos/promo_airpods_pro_avail__gaxggskofx6y_large.jpg") center no-repeat;
 
 }
@@ -218,10 +233,7 @@ h2 {
 }
 
 .series8 {
-    width: 48%;
-    height: 640px;
-    border: 10px solid white;
-    display: inline-block;
+
     background: url("images/promos/promo_apple_watch_series_8__ch7rexplmihe_large.jpg") center no-repeat;
 
 }
@@ -233,10 +245,6 @@ h2 {
 }
 
 .watchse {
-    width: 48%;
-    height: 640px;
-    border: 10px solid white;
-    display: inline-block;
     background: url("images/promos/promo_apple_watch_se__f9702l6odgi2_large.jpg") center no-repeat;
 
 }
@@ -248,10 +256,6 @@ h2 {
 }
 
 .Fitness {
-    width: 48%;
-    height: 640px;
-    border: 10px solid white;
-    display: inline-block;
     background: url("images/promos/promo-apple-fitness-plus-iphone__bzeal882mv7m_large.jpg") center no-repeat;
 }
 
@@ -262,10 +266,6 @@ h2 {
 }
 
 .mac {
-    width: 48%;
-    height: 640px;
-    border: 10px solid white;
-    display: inline-block;
     background: url("images/promos/promo_macbookair__fywl7i82fueu_large.png") center no-repeat;
 }
 
@@ -277,9 +277,5 @@ h2 {
 }
 
 .card {
-    width: 48%;
-    height: 640px;
-    border: 10px solid white;
-    display: inline-block;
     background: url("images/promos/tile__cauwwcyyn9hy_large.jpg") center no-repeat;
 }
