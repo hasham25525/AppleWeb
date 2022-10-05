@@ -174,3 +174,112 @@ header {
     height: 736px;
     background-size: auto 73.6rem;
 }
+
+.promo {
+    color: #ffffff;
+    text-align: center;
+
+    padding-top: 5.5rem;
+}
+
+.promo-heading {
+    font-size: 5.6rem;
+    Line-height: 1.07143;
+    Letter-spacing: -0.005rem;
+}
+
+.promo-sub-heading {
+    font-size: 2.65rem;
+    margin-top: 0.6rem;
+    Letter-spacing: 0.008rem;
+    font-weight: 400;
+}
+
+
+
+h2 {
+    height: 100.96px;
+}
+
+.AirPods {
+    width: 48%;
+    height: 640px;
+    border: 10px solid white;
+    display: inline-block;
+    background: url("images/promos/promo_airpods_pro_avail__gaxggskofx6y_large.jpg") center no-repeat;
+
+}
+
+.watch8logo {
+    padding: 15px 0;
+    height: 71px;
+
+    background: url("images/promos/promo_logo_apple_watch_series_8__ee6riplsucuq_large.png")center no-repeat;
+}
+
+.series8 {
+    width: 48%;
+    height: 640px;
+    border: 10px solid white;
+    display: inline-block;
+    background: url("images/promos/promo_apple_watch_series_8__ch7rexplmihe_large.jpg") center no-repeat;
+
+}
+
+.watchselogo {
+
+    height: 60px;
+    background: url("images/promos/promo_logo_apple_watch_se__b85vr9ri02gi_large.png")center no-repeat;
+}
+
+.watchse {
+    width: 48%;
+    height: 640px;
+    border: 10px solid white;
+    display: inline-block;
+    background: url("images/promos/promo_apple_watch_se__f9702l6odgi2_large.jpg") center no-repeat;
+
+}
+
+.Fitnesslogo {
+
+    height: 60px;
+    background: url("images/promos/promo_logo_fitness_plus_iphone__dpayetemakq6_large.png")center no-repeat;
+}
+
+.Fitness {
+    width: 48%;
+    height: 640px;
+    border: 10px solid white;
+    display: inline-block;
+    background: url("images/promos/promo-apple-fitness-plus-iphone__bzeal882mv7m_large.jpg") center no-repeat;
+}
+
+.m2logo {
+    padding-top: 5px;
+    height: 60px;
+    background: url("images/promos/logo_promo_macbookair__hy9ktdqqtv2a_large.png")center no-repeat;
+}
+
+.mac {
+    width: 48%;
+    height: 640px;
+    border: 10px solid white;
+    display: inline-block;
+    background: url("images/promos/promo_macbookair__fywl7i82fueu_large.png") center no-repeat;
+}
+
+.cardlogo {
+
+    height: 60px;
+    background: url("images/promos/logo__dcojfwkzna2q_large.png")center no-repeat;
+
+}
+
+.card {
+    width: 48%;
+    height: 640px;
+    border: 10px solid white;
+    display: inline-block;
+    background: url("images/promos/tile__cauwwcyyn9hy_large.jpg") center no-repeat;
+}
